@@ -8,55 +8,55 @@
 public class Letters
 {
     public static void main(String[] args) {
-        Dear();
+        dear();
         System.out.println(" Mom,");
-        Paragraph();
+        paragraph();
         System.out.println();
-        MomP();
+        momP();
         System.out.println();
-        Love();
+        love();
         System.out.println();
-        Dear();
+        dear();
         System.out.println(" Friend,");
-        Paragraph();
+        paragraph();
         System.out.println();
-        FriendP();
+        friendP();
         System.out.println();
-        Love();
+        love();
         System.out.println();
-        Dear();
+        dear();
         System.out.println(" Dog,");
-        Bark();
-        Bark();
-        SeeBelow();
+        bark();
+        bark();
+        seeBelow();
         System.out.println();
-        Paragraph();
+        paragraph();
         System.out.println();
-        Bark();
-        SeeBelow();
+        bark();
+        seeBelow();
         System.out.println();
-        DogP();
+        dogP();
         System.out.println();
-        Love();
+        love();
     }
     
-    public static void Dear() {
-        System.out.print("Dear");
+    public static void dear() {
+        System.out.print("dear");
     }
     
-    public static void Paragraph() {
-        HowAreYou();
+    public static void paragraph() {
+        howAreYou();
         Weather();
         Health();
         Space();
     }
     
-    public static void Love() {
-        System.out.println("Love,");
+    public static void love() {
+        System.out.println("love,");
         System.out.println("\t Johnny Appleseed");
     }
     
-    public static void HowAreYou() {
+    public static void howAreYou() {
         System.out.println("Hello! Long time no see! How are you doing? I am having fun with my");
         System.out.println("friends at the International Space Station, but I thought I should");
         System.out.println("write a letter about how I am doing and say hi! It is very fun here!");
@@ -78,27 +78,31 @@ public class Letters
         System.out.println("Space is cool, but I wish I could go back to Earth!");
     }
     
-    public static void MomP() {
+    public static void momP() {
         System.out.println("Oh! And Mom, the next time you send a package from Earth, do you think");
         System.out.println("you can bring me some chocolate? That would be nice. Thanks!");
     }
     
-    public static void FriendP() {
+    public static void friendP() {
         System.out.println("Friend, don't forget to remind me when I come home that I owe you $10");
         System.out.println("from when we went out to eat! I still need to pay you back!");
     }
     
-    public static void Bark() {
-        System.out.println("Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark!");
-        System.out.println("Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark!");
+    public static void bark() {
+        linesOfBark();
+        linesOfBark();
+        linesOfBark();
+    }
+    
+    public static void linesOfBark() {
         System.out.println("Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark! Bark!");
     }
     
-    public static void SeeBelow() {
+    public static void seeBelow() {
         System.out.println("\t Translation below");
     }
     
-    public static void DogP() {
+    public static void dogP() {
         System.out.println("When I come home, where should we go on a walk? I was thinking we can");
         System.out.println("go to the park, and then go uphill to the trail. Can't wait!");
     }
