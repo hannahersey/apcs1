@@ -1,70 +1,70 @@
 
 /**
- * Really hoping this works! *Double crosses figners#
+ * This will print out most of the Old Lady lyrics!
  * 
  * Hannah Hersey
- * 8/26/15
+ * 8/31/15
  */
 public class OldLady
 {
    public static void main(String[] args) {
-       There();
+       there();
        System.out.println("fly;");
-       Idk();
-       There();
+       idk();
+       there();
        System.out.println("spider;");
        System.out.println("That wriggled and wiggled and tiggled inside her;");
-       She();
+       she();
        System.out.print(" spider");
-       Catch();
+       toCatch();
        System.out.println("fly;");
-       Idk();
-       There();
+       idk();
+       there();
        System.out.println("bird;");
        System.out.println("How absurd to swallow a bird.");
-       She();
+       she();
        System.out.print(" bird");
-       Catch();
+       toCatch();
        System.out.println("spider;");
-       She();
+       she();
        System.out.print(" spider");
-       Catch();
+       toCatch();
        System.out.println("fly;");
-       Idk();
-       There();
+       idk();
+       there();
        System.out.println("cat;");
        System.out.println("Fancy that to swallow a cat!");
-       She();
+       she();
        System.out.print(" cat");
-       Catch();
+       toCatch();
        System.out.println("bird;");
-       She();
+       she();
        System.out.print(" bird");
-       Catch();
+       toCatch();
        System.out.println("spider;");
-       She();
+       she();
        System.out.print(" spider");
-       Catch();
+       toCatch();
        System.out.println("fly;");
-       Idk();
-       There();
+       idk();
+       there();
        System.out.println("horse...");
-       System.out.println("She's dead of course!");
+       System.out.println("she's dead of course!");
     }
    
-   public static void There() {
-       System.out.print("There was an old lady who swallowed a ");
+   public static void there() {
+       System.out.print("there was an old lady who swallowed a ");
     }
    
-   public static void Idk() {
+   public static void idk() {
        System.out.println("I don't know why she swallowed a fly - perhaps she'll die!");
     }
    
-   public static void She() {
-       System.out.print("She swallowed the");
+   public static void she() {
+       System.out.print("she swallowed the");
     }
     
-   public static void Catch() {
+   public static void toCatch() {
        System.out.print(" to catch the ");
     }
 }
