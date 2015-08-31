@@ -41,50 +41,50 @@ public class Letters
     }
     
     public static void dear() {
-        System.out.print("dear");
+        System.out.print("Dear");
     }
     
     public static void paragraph() {
         howAreYou();
-        Weather();
-        Health();
-        Space();
+        weather();
+        health();
+        space();
     }
     
     public static void love() {
-        System.out.println("love,");
+        System.out.println("Love,");
         System.out.println("\t Johnny Appleseed");
     }
     
     public static void howAreYou() {
-        System.out.println("Hello! Long time no see! How are you doing? I am having fun with my");
+        System.out.println("\tHello! Long time no see! How are you doing? I am having fun with my");
         System.out.println("friends at the International Space Station, but I thought I should");
         System.out.println("write a letter about how I am doing and say hi! It is very fun here!");
     }
     
-    public static void Weather() {
+    public static void weather() {
         System.out.println("By the way, how is the weather in Millbrae? In space, we see that");
         System.out.println("there are many clouds above the Bay Area. I hope it is raining so");
         System.out.println("the drought can be fixed! I miss seeing the big bright blue sky!!!");
     }
     
-    public static void Health() {
+    public static void health() {
         System.out.println("While living in space is fun, it can get a little tiring since we can");
         System.out.println("only float. That is why I have to constantly exercise to make sure");
         System.out.println("that my bones don't deteriate. Don't worry though! It's not that bad");
     }
     
-    public static void Space() {
-        System.out.println("Space is cool, but I wish I could go back to Earth!");
+    public static void space() {
+        System.out.println("space is cool, but I wish I could go back to Earth!");
     }
     
     public static void momP() {
-        System.out.println("Oh! And Mom, the next time you send a package from Earth, do you think");
+        System.out.println("\tOh! And Mom, the next time you send a package from Earth, do you think");
         System.out.println("you can bring me some chocolate? That would be nice. Thanks!");
     }
     
     public static void friendP() {
-        System.out.println("Friend, don't forget to remind me when I come home that I owe you $10");
+        System.out.println("\tFriend, don't forget to remind me when I come home that I owe you $10");
         System.out.println("from when we went out to eat! I still need to pay you back!");
     }
     
@@ -103,7 +103,7 @@ public class Letters
     }
     
     public static void dogP() {
-        System.out.println("When I come home, where should we go on a walk? I was thinking we can");
+        System.out.println("\tWhen I come home, where should we go on a walk? I was thinking we can");
         System.out.println("go to the park, and then go uphill to the trail. Can't wait!");
     }
 }

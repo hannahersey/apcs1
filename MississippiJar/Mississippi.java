@@ -8,30 +8,30 @@
 public class Mississippi
 {
     public static void main(String[] args) {
-        MI();
-        SSI();
-        SSI();
-        PPI();
+        mI();
+        sSI();
+        sSI();
+        pPI();
     }
     
-    public static void MI() {
-        M();
-        I();
+    public static void mI() {
+        m();
+        i();
     }
     
-    public static void SSI() {
-        S();
-        S();
-        I();
+    public static void sSI() {
+        s();
+        s();
+        i();
     }
     
-    public static void PPI() {
-        P();
-        P();
-        I();
+    public static void pPI() {
+        p();
+        p();
+        i();
     }
     
-    public static void M() {
+    public static void m() {
         System.out.println("M     M");
         System.out.println("MM   MM");
         System.out.println("M M M M");
@@ -42,7 +42,7 @@ public class Mississippi
         System.out.println();
     }
     
-    public static void I() {
+    public static void i() {
         System.out.println("IIIII");
         System.out.println("  I");
         System.out.println("  I");
@@ -53,7 +53,7 @@ public class Mississippi
         System.out.println();
         }
         
-    public static void S() {
+    public static void s() {
        System.out.println(" SSSSS");
        System.out.println("S     S");
        System.out.println("S");
@@ -64,7 +64,7 @@ public class Mississippi
        System.out.println();
     }
     
-    public static void P() {
+    public static void p() {
         System.out.println("PPPPPPP");
         System.out.println("P      P");
         System.out.println("P      P");
