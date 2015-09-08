@@ -1,9 +1,9 @@
 
 /**
- * I hope this is correct *crosses fingers*
+ * Will print out M I S S I S S I P P I
  * 
  * Hannah Hersey
- * 8/26/15
+ * 8/30/15
  */
 public class Mississippi
 {
